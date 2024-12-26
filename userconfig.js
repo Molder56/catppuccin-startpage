@@ -4,7 +4,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "ShenZhen",
     scale: "C",
   },
   clock: {
@@ -12,53 +12,65 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://www.google.com/",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      name: "study",
+      background_url: "src/img/banners/cbg-7.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "school",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
+              name: "teams",
+              url: "https://teams.microsoft.com/v2/",
               icon: "droplet-bolt",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
+              name: "office",
+              url: "https://www.office.com/",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+            {
+              name: "gimkit",
+              url: "https://www.office.com/",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+            {
+              name: "quill",
+              url: "https://www.office.com/",
               icon: "binary-tree",
               icon_color: palette.peach,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "learn",
           links: [
             {
-              name: "gmail",
+              name: "remnote",
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
+              name: "quizlet",
               url: "https://calendar.google.com",
               icon: "calendar-filled",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
+              name: "khanacademy",
               url: "https://docs.google.com/spreadsheets",
               icon: "table",
               icon_color: palette.red,
             },
             {
-              name: "drive",
+              name: "canva",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
               icon_color: palette.blue,
@@ -66,44 +78,38 @@ const default_config = {
           ],
         },
         {
-          name: "media",
+          name: "tools",
           links: [
             {
-              name: "уп",
+              name: "chatgpt",
               url: "https://www.pravda.com.ua",
               icon: "news",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
+              name: "gemini",
               url: "https://mil.in.ua",
               icon: "badge-filled",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
+              name: "perplexity",
               url: "https://kutok.io",
               icon: "border-radius",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
+              name: "grok",
               url: "https://grnt.media",
               icon: "eye-bolt",
               icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },
       ],
     },
     {
-      name: "dev",
+      name: "chill",
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
