@@ -188,7 +188,7 @@ const default_config = {
             {
               name: "pixiv",
               url: "https://www.pixiv.net/",
-              icon: "library-photo",
+              icon: "photo",
               icon_color: palette.blue,
             },
             {
