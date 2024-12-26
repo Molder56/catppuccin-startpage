@@ -38,7 +38,7 @@ const default_config = {
               name: "gimkit",
               url: "https://www.gimkit.com/",
               icon: "device-gamepad",
-              icon_color: palette.purple,
+              icon_color: palette.mauve,
             },
             {
               name: "quill",
@@ -60,7 +60,7 @@ const default_config = {
             {
               name: "quizlet",
               url: "https://quizlet.com/",
-              icon: "letter-q-small",
+              icon: "question-mark",
               icon_color: palette.blue,
             },
             {
@@ -102,7 +102,7 @@ const default_config = {
               name: "grok",
               url: "https://x.ai/",
               icon: "brand-x",
-              icon_color: palette.white,
+              icon_color: palette.yellow,
             },
           ],
         },
@@ -166,7 +166,7 @@ const default_config = {
               name: "crazygames",
               url: "https://www.crazygames.com/",
               icon: "device-gamepad",
-              icon_color: palette.purple,
+              icon_color: palette.mauve,
             },
           ],
         },
